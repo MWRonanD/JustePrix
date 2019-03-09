@@ -31,7 +31,7 @@ void PlayGame(list<Scores> &scores) {
 		int toFind = GetRand(seed);
 		Scores score;
 		score.SetGoodAnswer(toFind);
-		cout << endl << toFind << endl;
+		//cout << endl << toFind << endl;
 
 		do
 		{
